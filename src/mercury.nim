@@ -19,9 +19,8 @@ root.get("/ping", ping)
 
 ################################
 ##         TEXT PARSING GROUP
-## POST /api/v1/text/to-companies 
-## POST /api/v1/text/to-sentiment
-textParsing.post("/analysis", textHandler)
+## get /api/v1/text/analysis
+textParsing.get("/analysis", textHandler)
 
 
 

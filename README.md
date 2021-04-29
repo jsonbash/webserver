@@ -1,5 +1,10 @@
 # webserver
 
+To fix: <br>
+- [] issue with out of scope variable access: 
+- [] access post fields with json incoming
+- [] failing with --gc:orc
+ 
 
 ## Error getting when trying to compile
 Error: type mismatch: got <Group, string, proc (ctx: Context): Future[system.void]{.locks: <unknown>.}>

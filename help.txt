@@ -1,0 +1,6 @@
+Wondering if I could get some help with some of my code using the Prolgue webserver?
+
+My code is here: https://github.com/jsonbash/webserver/blob/main/src/routes.nim
+
+I get an error when compiling that is in the Readme. I think it is in my doAnalysisOnText function when it references a variable outside of its
+scope. I am not sure what to change, any help is appreciated!
