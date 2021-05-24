@@ -2,10 +2,11 @@
   "prologue": {
     "address": "",
     "port": 5000,
-    "debug": false,
+    "debug": true,
     "reusePort": true,
     "appName": "webserver",
     "secretKey": "secretsecretyouvegotasecret",
-    "bufSize": 40960
+    "bufSize": 40960,
+    "numThreads": 4
   }
 }
